@@ -1,0 +1,132 @@
+#landing{
+ width: 1200px;
+ height: 600px;
+ margin: 0 auto;
+ position: relative;
+}
+#landing img{
+ position: absolute;
+    z-index: 5
+}
+.fil-lune{
+  left: 0px;
+top: -100px;
+}
+.lune{
+   width: 162px;
+    left: 21px;
+    top: 170px;
+     animation: luna 2.5s infinite;
+    -moz-animation: luna 2.5s infinite;
+    -webkit-animation: luna 2.5s infinite;
+}
+#landing .night{
+    width: 100px;
+    left: 54px;
+}
+.angelo{
+    width: 150px;
+    right: 96px;
+    top: -7;
+}
+.crochet{
+    height: 300px;
+    right: 93px;
+    top: 143px;
+         animation: amo 2.5s infinite;
+    -moz-animation: amo 2.5s infinite;
+    -webkit-animation: amo 2.5s infinite;
+}
+.anglo_poisson{
+    width: 105px;
+    right: 84px;
+    top: 433px;
+        animation: pescepreso 2.5s infinite;
+    -moz-animation: pescepreso 2.5s infinite;
+    -webkit-animation: pescepreso 2.5s infinite;
+}
+#bottom-landing img{
+    position: absolute;
+    z-index: 5;
+}
+.bateau{   
+    width: 258px;
+    left: 640px;
+    bottom: 0;
+    animation: barca 2.5s infinite;
+    -moz-animation: barca 2.5s infinite;
+    -webkit-animation: barca 2.5s infinite;
+    z-index: 7!important;
+}
+.vieil{
+    width: 136px;
+    left: 752px;
+    bottom: 54px;
+    z-index: 6!important;
+    animation: marinaio 2.5s infinite;
+    -moz-animation: marinaio 2.5s infinite;
+    -webkit-animation: marinaio 2.5s infinite;
+}
+.couverture{
+    left: 751px;
+    bottom: 298px;
+    width: 40px;
+    animation: barca 2.5s infinite;
+    -moz-animation: barca 2.5s infinite;
+    -webkit-animation: barca 2.5s infinite;
+}
+.gabbiano{
+    left: 739px;
+    bottom: 330px;
+    width: 100px;
+    animation: gab 2.5s infinite;
+    -moz-animation: gab 2.5s infinite;
+    -webkit-animation: gab 2.5s infinite;
+}
+.roseau{
+    left: 545px;
+    bottom: 147px;
+    width: 200px;
+     animation: canna 2.5s infinite;
+    -moz-animation: canna 2.5s infinite;
+    -webkit-animation: canna 2.5s infinite;
+}
+.bateau-poisson{
+    left: 260px;
+    bottom: 20px; 
+     animation: pescedasolo 2.5s infinite;
+    -moz-animation: pescedasolo 2.5s infinite;
+    -webkit-animation: pescedasolo 2.5s infinite;
+}
+.vieil-poisson{
+        left: 871px;
+    bottom: -32px;
+    width: 56px;
+    animation: pescebarca 2.5s infinite;
+    -moz-animation: pescebarca 2.5s infinite;
+    -webkit-animation: pescebarca 2.5s infinite;
+}
+.poisson1,.poisson2{
+    left: 499px;
+    bottom: 7px;
+    width: 88px;
+     animation: pescepresobarca 2.5s infinite;
+    -moz-animation: pescepresobarca 2.5s infinite;
+    -webkit-animation: pescepresobarca 2.5s infinite;
+}
+.poisson2{
+    left: 999px;  
+}
+.mar{
+    width: 100%;
+    position: fixed;
+    bottom: 0; 
+    height: 100px;
+    z-index: 4;
+}
+
+.deux{ 
+     animation: onda 2.5s infinite;
+    -moz-animation: onda 2.5s infinite;
+    -webkit-animation: onda 2.5s infinite;
+    background: url(../img/vague1.png);}

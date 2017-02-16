@@ -1,0 +1,148 @@
+/*var main = color: #002f5c*/
+body{
+    margin: 0;
+    padding: 0;
+   background: url(../img/sfondo.jpg);
+    text-transform: capitalize;
+    width: 2500px;;
+       font-family: 'Sansita', sans-serif;
+    height: 794px;
+    background-size: cover;
+    overflow-y:hidden;
+    overflow-x: auto;
+}
+.loading{background-color: #002f5c;
+position: fixed;
+height: 100%;
+width: 100%;
+        color: white;
+        text-align: center;
+    font-size: 125px;   
+z-index: 100;}
+.loading p{
+
+    margin-top: 40%;
+
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #002f5c;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.header{
+    position: fixed;
+    z-index: 2
+}
+.logo{
+    width: 400px;
+    margin: 40px auto 0;
+}
+.logo img{
+        display: block;
+    max-width: 100%;
+    height: auto;
+}
+.hint{
+       font-size: 25px;
+    font-family: 'Bahiana', cursive;
+    display: block;
+        color:#002f5c; 
+    text-align: center;
+}
+.my-menu ul{
+    padding: 0;
+        text-align: center;
+}
+.my-menu ul li{
+display: inline-block;
+    padding: 10px;
+     color: rgb(128, 51, 48);
+    font-size: 16px;
+    cursor: pointer;
+}
+.my-menu ul li:hover{
+    border-bottom: 2px solid #002f5c;
+    color:#002f5c; 
+}
+.info,.skills{
+    width: 100%;
+    position: fixed;
+    background: #232526; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    height: 100%;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.profile{
+    width: 100%;
+    height: 550px;
+    margin-top: 80px;
+}
+.profile img{
+    width: 180px;
+    height: 180px;
+    border-radius: 25px;
+    border: 2px solid #002f5c;
+    display: block;
+    margin: 20px auto;
+    position: relative;
+}
+.info-content{
+    color: rgb(232, 232, 217);
+    font-size: 20px;
+    text-align: center;
+ 
+}
+a{
+   color: rgb(128, 51, 48);
+}
+a:hover, .action-close{
+color: rgb(232, 232, 217);
+}
+.social-media{
+    width: 100%;
+    text-align: center;
+}
+.social-media i,.action-close{
+    line-height: 1.5;
+    opacity: 1;
+    padding: 5px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+body .action-close{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    z-index: 6;
+    cursor: pointer;
+    display: none;
+    font-size: 25px!important;
+}
+.skills{
+  text-align: center
+}
+.skills-content{
+    margin: 5% auto 0;
+}
+.skills p{
+    text-transform: capitalize;
+    font-size: 16px;
+    color: rgb(232, 232, 217);
+    
+}
+.skills span i{
+      color: rgb(128, 51, 48);
+}
